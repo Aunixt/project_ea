@@ -1,0 +1,233 @@
+world:
+  width: 20
+  height: 20
+  step_time: 0.1
+  sample_time: 0.1
+  collision_mode: stop
+  control_mode: auto
+robot:
+  kinematics:
+    name: diff
+  shape:
+    name: circle
+    radius: 0.2
+  state:
+  - 2.0
+  - 2.0
+  - 0.7853981633974483
+  goal:
+  - 18.0
+  - 18.0
+  - 0.0
+  goal_threshold: 0.3
+  vel_min:
+  - 0
+  - -1.5
+  vel_max:
+  - 1
+  - 1.5
+  acce:
+  - 1.5
+  - 3.0
+  plot:
+    show_trajectory: true
+    show_goal: true
+obstacle:
+- static: true
+  shape:
+    name: rectangle
+    length: 1.341723111266861
+    width: 0.6829923596277363
+  state:
+  - 4.799982838768795
+  - 9.98989007416161
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.7309836625773264
+    width: 0.7992400418091927
+  state:
+  - 5.070965184084383
+  - 15.994954321445173
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.0743420922892597
+    width: 1.238098525073752
+  state:
+  - 16.276598346084853
+  - 11.70637029914936
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.8086632837969987
+    width: 1.5562455336795906
+  state:
+  - 12.27980133523519
+  - 6.854323420655811
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.5892469013651067
+    width: 1.2814365592005301
+  state:
+  - 12.385048177434772
+  - 10.173352388764247
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.286789917295012
+    width: 1.2061684014618959
+  state:
+  - 16.732790950162276
+  - 5.863132458620628
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.9205964164177176
+    width: 1.5725330863452558
+  state:
+  - 7.945847970846273
+  - 11.282334255286608
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.1871341877490118
+    width: 0.96871662641376
+  state:
+  - 15.142669725793805
+  - 4.802635397189914
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.1444409958550106
+    width: 0.8198449949564082
+  state:
+  - 4.1636379682933935
+  - 15.543220315505145
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.6866457404914033
+    width: 0.8997204960313074
+  state:
+  - 12.42707300186275
+  - 5.831024389032534
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.0476100548189855
+    width: 1.1892443879358572
+  state:
+  - 3.4630456232840015
+  - 5.81076535825707
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.0402187598538122
+    width: 0.6694087973621226
+  state:
+  - 15.68588074453785
+  - 12.76305524230817
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.1786733768771622
+    width: 1.444695903766573
+  state:
+  - 5.237531717469734
+  - 16.950102257555386
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.6227736224118159
+    width: 1.3260642317668896
+  state:
+  - 3.765352859625732
+  - 3.4767039052585265
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.7526228425804111
+    width: 0.8485700412748618
+  state:
+  - 7.321936404863868
+  - 7.443272935938724
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.1862486767836398
+    width: 0.7962833534673099
+  state:
+  - 3.3442055045126082
+  - 14.747747877218943
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.7212082704207204
+    width: 1.3381509234226439
+  state:
+  - 13.349456236471688
+  - 5.739139619234494
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.5759063883754196
+    width: 0.8686955192375919
+  state:
+  - 15.540608524377943
+  - 3.377207759385839
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.9869213270638988
+    width: 1.4861785055792058
+  state:
+  - 4.300619902911659
+  - 3.251468499135786
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 0.8997929990497139
+    width: 1.0124601592149465
+  state:
+  - 9.904505314113637
+  - 14.940879922363388
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.73215689384915
+    width: 1.0417891022349854
+  state:
+  - 6.613971925964237
+  - 16.696215922399038
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 1.5084852549012222
+    width: 0.6960150679361687
+  state:
+  - 9.104021050292634
+  - 7.400474801853941
+  - 0

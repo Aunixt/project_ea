@@ -1,0 +1,11 @@
+# Exact full dependency set is recorded in requirements-lock.txt.
+ir-sim==2.12.1
+numpy==2.5.5
+matplotlib==3.11.2
+shapely==2.2.0
+PyYAML==6.0.4
+Pillow==13.0.0
+reportlab==5.1.1
+# Assignment inspection and PDF visual verification:
+PyMuPDF==1.26.7
+pypdf==7.1.1

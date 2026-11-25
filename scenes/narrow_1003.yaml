@@ -1,0 +1,53 @@
+world:
+  width: 20
+  height: 20
+  step_time: 0.1
+  sample_time: 0.1
+  collision_mode: stop
+  control_mode: auto
+robot:
+  kinematics:
+    name: diff
+  shape:
+    name: circle
+    radius: 0.2
+  state:
+  - 9.247425280158032
+  - 2
+  - 1.5707963267948966
+  goal:
+  - 9.347092618335232
+  - 18
+  - 0.0
+  goal_threshold: 0.3
+  vel_min:
+  - 0
+  - -1.5
+  vel_max:
+  - 1
+  - 1.5
+  acce:
+  - 1.5
+  - 3.0
+  plot:
+    show_trajectory: true
+    show_goal: true
+obstacle:
+- static: true
+  shape:
+    name: rectangle
+    length: 8.586441231290015
+    width: 0.8
+  state:
+  - 4.293220615645008
+  - 10
+  - 0
+- static: true
+  shape:
+    name: rectangle
+    length: 10.085205863600573
+    width: 0.8
+  state:
+  - 14.957397068199715
+  - 10
+  - 0

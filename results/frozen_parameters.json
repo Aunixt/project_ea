@@ -1,0 +1,14 @@
+{
+  "horizon": 2.0,
+  "linear_acceleration": 1.5,
+  "angular_acceleration": 3.0,
+  "v_samples": 7,
+  "w_samples": 13,
+  "safety_margin": 0.07,
+  "obstacle_weight": 0.4,
+  "goal_weight": 2.5,
+  "heading_weight": 0.6,
+  "speed_weight": 0.35,
+  "turn_weight": 0.05,
+  "lookahead": 2.5
+}

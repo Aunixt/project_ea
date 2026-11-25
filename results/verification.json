@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "200 independent Shapely point/rectangle distance checks",
+    "30 test maps: independent continuous path clearance > robot radius",
+    "IR-SIM geometry alignment and differential-drive integration",
+    "Deliberate wall impact triggers IR-SIM collision flag",
+    "100 trace/CSV consistency checks: paired seeds, actions, accelerations, simulator motion, outcomes and metrics"
+  ]
+}
